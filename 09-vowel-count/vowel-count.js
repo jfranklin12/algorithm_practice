@@ -16,4 +16,4 @@ var vowelCount = function(str) {
     return totalVowel;
 };
 
-vowelCount("I think, therefore I am.")
+vowelCount("turn the buckle on the quarter")
