@@ -17,4 +17,4 @@ var titleCase = function(str) {
     
 };
 
-titleCase("the food is here")
+titleCase("the food is here");
