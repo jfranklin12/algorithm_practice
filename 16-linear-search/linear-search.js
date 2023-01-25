@@ -3,4 +3,16 @@
 // else return -1
 // You may not use the `indexOf`, `lastIndexOf` or `includes` methods
 
-var linearSearch = function(arr, target) {};
+var linearSearch = function (arr, target) {
+    for (var i = 0; i < arr.length; i++) {
+        var num = arr[i]
+        if (num === target) {
+            // console.log(i);
+            return i;
+        }
+    }
+    // console.log(-1);
+    return (-1);
+};
+
+linearSearch([10, 16, 19, 20], 19)
